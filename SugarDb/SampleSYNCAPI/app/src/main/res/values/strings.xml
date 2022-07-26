@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sample SYNC API</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="code_1254689">Code: 1254689</string>
+    <string name="keepers_06">Keepers: 06</string>
+    <string name="nrn_78789473">NRN: 78789473</string>
+    <string name="animals_172">Animals: 172</string>
+    <string name="address_string">142 st. lower kachura</string>
+    <string name="_923331112233">+923331112233</string>
+    <string name="active_status">Active</string>
+    <string name="owner"><u>Owner</u></string>
+    <string name="owner_real">Owner</string>
+    <string name="keeper"><u>Keeper</u></string>
+    <string name="animal_registration"><u>Animal Registration</u></string>
+    <string name="animal_registration_real">Animal Registration</string>
+    <string name="herd"><u>Herd</u></string>
+    <string name="herd_real">Herd</string>
+    <string name="animals_tab">Animals</string>
+    <string name="species">Species</string>
+    <string name="breeds">Breeds</string>
+    <string name="premesis_types">Premesis Types</string>
+    <string name="provinces">Provinces</string>
+    <string name="districts">Districts</string>
+    <string name="tehsils">Tehsils</string>
+    <string name="villages">Villages</string>
+    <string name="stats">Stats</string>
+    <string name="animal_type">Animal Type</string>
+</resources>
