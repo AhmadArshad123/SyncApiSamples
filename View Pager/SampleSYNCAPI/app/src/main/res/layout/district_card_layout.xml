@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_25sdp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tv_id_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="District ID"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12ssp" />
+            <TextView
+                android:id="@+id/tv_district_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tv_id_label"
+                android:paddingStart="@dimen/_5sdp"
+                android:text="0045"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12ssp" />
+            <TextView
+                android:id="@+id/tv_province_id_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_district_province_id"
+                android:text="Province ID"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12ssp" />
+            <TextView
+                android:id="@+id/tv_district_province_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:paddingStart="@dimen/_5sdp"
+                android:text="0045"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12ssp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_10sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_district_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_type"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_district_code_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_district_name"
+                android:text="District Code"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_15ssp" />
+
+            <TextView
+                android:id="@+id/tv_district_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_district_name"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_toRightOf="@id/tv_district_code_label"
+                android:text="46899"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_15ssp" />
+
+            <TextView
+                android:id="@+id/tv_division_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_district_code_label"
+                android:text="Division"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_15ssp" />
+
+            <TextView
+                android:id="@+id/tv_division_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_district_code"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_toRightOf="@id/tv_division_label"
+                android:text="46899"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_15ssp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
